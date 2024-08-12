@@ -17,7 +17,7 @@ if button1:
     if(pulse<60):       
         st.write("Your heart is :red[very weak,] please consult your nearest doctor")
     elif(pulse>100):        
-        st.write("SYour heart is :red[very fast,] please consult your nearest doctor]")    
+        st.write("Your heart is :red[very fast,] please consult your nearest doctor]")    
     else:        
         st.write("Your heart is very normal")    
     
