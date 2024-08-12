@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 
-img=Image.open("E:\MOHAN\Python_prog\Streamlit_Program\.streamlit\heart.jpg")
+img=Image.open("heart.jpg")
 st.image(img)
 st.header("Check Your :red[Heart] Condition")
 name=st.text_input("Enter your name")
