@@ -8,7 +8,7 @@ st.header("Check Your :red[Heart] Condition")
 name=st.text_input("Enter your name")
 age=st.number_input("Enter your age")
 mobile=st.text_input("Enter your mobile number")
-pulse=st.number_input("Enter your pule per minute")
+pulse=st.number_input("Enter your pulse per minute")
 button1=st.button("Report")
 
 if button1:
